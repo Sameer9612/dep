@@ -112,6 +112,18 @@ USE_I18N = True
 
 USE_TZ = True
 
+import os
+
+# Set the STATIC_ROOT to a location on the filesystem
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+# URL to use when referring to static files
+STATIC_URL = '/static/'
+
+# If you have additional static directories
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),  # Add any other directories with static files
+]
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
