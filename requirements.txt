@@ -2,8 +2,7 @@
 asgiref==3.8.1
 beautifulsoup4==4.12.3
 blinker==1.8.2
-cashfree==1.0.1
-certifi==2024.7.4
+
 cffi==1.17.1
 charset-normalizer==3.3.2
 click==8.1.7
@@ -16,7 +15,7 @@ filelock==3.16.1
 Flask==3.0.3
 fpdf==1.7.2
 idna==3.7
-instamojo-wrapper==1.2.0
+
 itsdangerous==2.2.0
 Jinja2==3.1.4
 MarkupSafe==2.1.5
@@ -42,13 +41,12 @@ pyttsx3==2.90
 pytweening==1.2.0
 pywhatkit==5.4
 
-qrcode==8.0
-razorpay==1.4.2
+
 requests==2.32.3
 setuptools==75.5.0
 six==1.17.0
 soupsieve==2.5
-speedtest-cli==2.1.3
+
 sqlparse==0.5.1
 termcolor==2.5.0
 tk==0.1.0
@@ -59,4 +57,4 @@ urllib3==2.2.2
 uv==0.4.18
 virtualenv==20.26.6
 Werkzeug==3.0.3
-wikipedia==1.4.0
+
